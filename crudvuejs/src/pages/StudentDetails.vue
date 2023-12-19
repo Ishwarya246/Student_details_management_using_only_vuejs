@@ -4,7 +4,7 @@
     <article class="f22" style="width: 60%;">
       <h1 class="f11">Student List</h1>
 
-      <div class="f44"><div class="f55" style="width:27% ">NAME </div> <div class="f55" style="width:4%" >AGE</div><div class="f55" style="width:40%" >EMAIL</div> <div class="f55" style="width:10%">GENDER</div> <div class="f55" style="width:15%">Options</div>
+      <div class="f44"><div class="f55" style="width:27% ">NAME </div> <div class="f55" style="width:4%" >AGE</div><div class="f55" style="width:40%" >EMAIL</div> <div class="f55" style="width:10%">GENDER</div> <div class="f55" style="width:15%">OPTIONS</div>
       </div>
 
       <div class="f44" v-for="(stud,i) in list" :key="i"><div class="f55" style="width:27%">{{ stud.name }}</div> <div class="f55" style="width:4%" >{{ stud.age }}</div><div class="f55" style="width:40%" >{{ stud.email }}</div> <div class="f55" style="width:10%">{{ stud.gender }}</div> <div class="f55" style="width:15%"><button class="f66" @click="edit(i)"> Edit</button> <button class="f66" @click="remove(i)"> Delete</button></div>

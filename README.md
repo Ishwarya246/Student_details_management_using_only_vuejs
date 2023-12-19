@@ -3,5 +3,5 @@
 #### Main page
 <img src = "images/1.png" > <br>
 
-#### Page too edit the details
+#### Page for updating the details
 <img src = "images/2.png" > <br>
