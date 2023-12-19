@@ -40,7 +40,7 @@
     </article>
 
 
-    <article  v-if="isEdit">
+    <article class="f22" v-if="isEdit">
       <h1 class="f11">Update Student details</h1>
 
 
